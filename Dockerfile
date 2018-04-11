@@ -3,4 +3,4 @@ FROM ubuntu
 MAINTAINER vivek151194@gmail.com 
 
 RUN apt-get update 
-CMD ["echo","Welcome to ubuntu"]
+RUN CMD ["echo","Welcome to ubuntu"]
